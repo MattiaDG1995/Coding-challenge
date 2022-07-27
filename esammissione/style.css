@@ -1,0 +1,80 @@
+
+*{
+  margin: 0;
+box-sizing: border-box;
+padding: 0;
+}
+
+body{
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 80%;
+  width: 68%;
+}
+
+header, nav{
+  text-align: center;
+}
+
+.Contenitore{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 8%;
+    border-radius: 8px;
+    margin: 1% 4%;
+}
+
+img{
+  width: 24%;
+  margin-bottom: 1%;
+}
+
+.titolo{
+  color: #00dd00;
+  margin-bottom: 3px;
+ }
+
+nav{
+  background-color: #00dd00;
+  padding: 1% 20%;
+}
+
+section{
+  color: white;
+  margin-top: 2%;
+  margin-bottom: 2%
+}
+
+section > div{
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+  color: lightgrey;
+}
+
+.monopattino{
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+}
+
+.orange, .green, .red{
+  height: 20px;
+  border-radius: 4px;
+}
+
+.orange{
+width: 30%;
+background-color: #f5b453;
+}
+
+.green{
+width: 60%;
+background-color:#1ec31e;
+}
+
+.red{
+width: 15%;
+background-color: #be4141;
+}
